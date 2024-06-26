@@ -1,0 +1,33 @@
+{
+  "currentVersion": "1.0.1",
+  "currentBuild": 6,
+  "releaseDate": "2024-06-24",
+  "dlUrl": "https://github.com/KindaBrazy/AIOne-Lynx/releases/download/v0.5.0-pre-alpha/AIOne.Lynx.Setup.0.5.0.exe",
+  "changeLog": [
+    {
+      "build": 6,
+      "version": "1.0.1",
+      "bug": [
+        "Testing Update"
+      ]
+    },
+    {
+      "build": 5,
+      "version": "1.0.0",
+      "new": [
+        "Linux Support",
+        "New Ai Support",
+        "Now you can install plugins with full customization"
+      ],
+      "improve": [
+        "Keyboard Manager",
+        "Discord Activity showing better names and details."
+      ],
+      "bug": [
+        "Administrator problem when installing some thing",
+        "New Bug Fixed",
+        "Minor Bugs Fixes..."
+      ]
+    }
+  ]
+}

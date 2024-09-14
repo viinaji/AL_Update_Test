@@ -1,33 +1,63 @@
 {
-  "currentVersion": "1.0.1",
-  "currentBuild": 6,
-  "releaseDate": "2024-06-24",
-  "dlUrl": "https://github.com/viinaji/AL_Update_Test/releases/download/Test/AIOne.Lynx.v1.0.1.exe",
+  "currentVersion": "1.0.3",
+  "currentBuild": 8,
+  "releaseDate": "2024-08-31",
+  "earlyAccess": {
+    "version": "1.1.0",
+    "build": 9,
+    "releaseDate": "2024-09-6"
+  },
   "changeLog": [
+    {
+      "build": 9,
+      "version": "1.1.0",
+      "new": [
+        "Linux Support: Now available for Linux.",
+        "Extension List for Web UIs: View and install all available extensions for WebUI interfaces.\n",
+        "Auto-Update Option for Extensions: Enable automatic updates for web UI extensions before launching.",
+        "Open in Default Browser: Open WebUI in your default browser by holding CTRL and clicking the address bar."
+      ],
+      "improve": [
+        "Close the launch configuration modal by pressing the Escape key.",
+        "Card titles now use title case for better readability.",
+        "Applied title case to installed extension names for consistency.",
+        "Reduced text size for a cleaner view of installed extensions.",
+        "Display Installed status for already cloned extensions.",
+        "Auto-focus is now enabled for search in the 'Add Argument' modal and the 'Extensions' tab."
+      ],
+      "bug": [
+        "Fixed issues with recognition and validation of Git URLs.",
+        "Fixed an issue where the update badge wasn't removed correctly after uninstallation.",
+        "The badge icon is now hidden after module updates."
+      ]
+    },
+    {
+      "build": 8,
+      "version": "1.0.3",
+      "bug": [
+        "Fixed issue where the fullscreen mode toggle was not working."
+      ]
+    },
+    {
+      "build": 7,
+      "version": "1.0.2",
+      "bug": [
+        "Fixed issue where Initializer window not working (White Screen)."
+      ]
+    },
     {
       "build": 6,
       "version": "1.0.1",
       "bug": [
-        "Testing Update"
+        "Fixed issue where 'Save As', 'Save', or 'Export' workflow buttons in the ComfyUI did not trigger the expected save dialog."
+      ],
+      "new": [
+        "Added a custom modal to replace the default `prompt` for all WebUI's."
       ]
     },
     {
       "build": 5,
-      "version": "1.0.0",
-      "new": [
-        "Linux Support",
-        "New Ai Support",
-        "Now you can install plugins with full customization."
-      ],
-      "improve": [
-        "Keyboard Manager",
-        "Discord Activity showing better names and details."
-      ],
-      "bug": [
-        "Administrator problem when installing some thing",
-        "New Bug Fixed",
-        "Minor Bugs Fixes..."
-      ]
+      "version": "1.0.0"
     }
   ]
 }

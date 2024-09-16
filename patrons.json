@@ -1,0 +1,16 @@
+{
+  "patrons": [
+    {
+      "name": "Alireza Naji",
+      "tier": "Platinum Sponsor",
+      "imageUrl": "https://avatars.githubusercontent.com/u/143181745?v=4",
+      "memberSince": "2024-08-15"
+    },
+    {
+      "name": "Hossein Poordavar",
+      "tier": "Diamond Sponsor",
+      "imageUrl": "https://avatars.githubusercontent.com/u/65625612?s=200&v=4",
+      "memberSince": "2024-05-05"
+    }
+  ]
+}
